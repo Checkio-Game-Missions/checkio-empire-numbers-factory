@@ -36,3 +36,7 @@ nosetests.xml
 .idea
 
 .DS_Store
+
+
+solution.py
+tests_generator.py

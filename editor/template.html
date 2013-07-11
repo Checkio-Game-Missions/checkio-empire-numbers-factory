@@ -9,20 +9,13 @@
 
 <script type="text/template" id="template_tryit">
     <div class="tryit-content center-exp">
-        <table class="tool">
+        <table class="center-exp tool">
             <tr>
-                <td rowspan="2" class="tryit-canvas"></td>
-                <td>
-                    <button class="bn-check btn">Action</button>
-                </td>
+                <td><label class="number-label">Number:</label></td>
+                <td><input type="number" size="15" class="number-input"/></td>
+                <td><button type="button" class="bn-check btn">Check</button></td>
             </tr>
-            <tr>
-                <td class="checkio-result">
-                    Result:
-                    <span class="checkio-result-in">&nbsp;</span>
-                </td>
-            </tr>
-
         </table>
+        <div class="checkio-result center-exp"></div>
     </div>
 </script>

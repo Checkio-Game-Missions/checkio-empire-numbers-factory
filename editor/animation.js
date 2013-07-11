@@ -67,15 +67,6 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
                 $content.find('.call').html('Pass: checkio(' + ext.JSON.encode(checkioInput) + ')');
                 $content.find('.answer').remove();
             }
-            //Dont change the code before it
-
-            //Your code here about test explanation animation
-            //$content.find(".explanation").html("Something text for example");
-            //
-            //
-            //
-            //
-            //
 
 
             this_e.setAnimationHeight($content.height() + 60);
@@ -91,40 +82,34 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             try {
                 ret = JSON.parse(ret);
             }
-            catch(err){}
-
-            $tryit.find(".checkio-result-in").html(ext.JSON.encode(ret));
+            catch (err) {}
+            $tryit.find(".checkio-result").html("Checkio return:<br>" + ext.JSON.encode(ret));
         });
 
         ext.set_generate_animation_panel(function (this_e) {
             $tryit = $(this_e.setHtmlTryIt(ext.get_template('tryit'))).find(".tryit-content");
             //Your code here about tryit animation
-            //
-            //
-            //
-            //
-            //
-            //
+            $tryit.find('.number-input').focus();
 
-            //run checking
-            $tryit.find('.bn-check').click(function (e) {
-                //collect data from your tryit panel
-                var data = 0;
+            $tryit.find('.bn-check').click(function(e){
+                var data = $tryit.find('.number-input').val();
+                if (!data) {
+                    data = 42;
+                }
+                else {
+                    data = parseInt(data);
+                    if (isNaN(data)){
+                        data = 42;
+                    }
+                }
+                $tryit.find('.number-input').val(data);
 
-                //send it for check
                 this_e.sendToConsoleCheckiO(data);
-                //After it will be called set_console_process_ret
                 e.stopPropagation();
                 return false;
             });
 
         });
-
-
-        //Your Additional functions or objects inside scope
-        //
-        //
-        //
 
 
     }
