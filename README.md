@@ -1,4 +1,4 @@
-checkio-task-digits-product
+checkio-task-numbers-factory
 =====================
 
 The task for Checkio.org.
