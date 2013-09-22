@@ -69,8 +69,12 @@
 }
 
 /*it for firefox*/
-.tryit-content .tool tr:first-child td:last-child {
-    height: 20%;
+.tryit-content .tool td {
+    vertical-align: middle;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    color: #294270;
 }
 
 .tryit-content .checkio-result{
@@ -128,6 +132,8 @@ fieldset[disabled] .btn {
 .tryit-content input[type="text"],
 .tryit-content input[type="number"]
 {
+    width: 90px;
+    text-align: center;
     display: inline-block;
     padding: 4px 6px;
     font-size: 14px;
