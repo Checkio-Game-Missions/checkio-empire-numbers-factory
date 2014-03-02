@@ -29,7 +29,12 @@ TESTS = {
 
         {"input": 35, "answer": 57},
 
-        {"input": 42, "answer": 67}
+        {"input": 42, "answer": 67},
+        {"input": 1, "answer": 1},
+
+        {"input": 3125, "answer": 55555},
+
+        {"input": 9973, "answer": 0},
     ],
     "Extra": [
         {"input": 1536, "answer": 3888},
@@ -44,6 +49,9 @@ TESTS = {
 
         {"input": 288, "answer": 489},
 
-        {"input": 1800, "answer": 5589}
+        {"input": 1800, "answer": 5589},
+
+        {"input": 9999, "answer": 0},
+        {"input": 9000, "answer": 55589},
     ]
 }
