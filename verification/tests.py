@@ -8,7 +8,6 @@ TESTS = {
 
         {"input": 33, "answer": 0},
 
-        {"input": 5, "answer": 5},
 
         {"input": 125, "answer": 555},
 
@@ -30,9 +29,10 @@ TESTS = {
         {"input": 35, "answer": 57},
 
         {"input": 42, "answer": 67},
-        {"input": 1, "answer": 1},
 
         {"input": 3125, "answer": 55555},
+        {"input": 1024, "answer": 2888},
+        {"input": 6561, "answer": 9999},
 
         {"input": 9973, "answer": 0},
     ],
