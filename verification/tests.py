@@ -33,6 +33,7 @@ TESTS = {
         {"input": 3125, "answer": 55555},
         {"input": 1024, "answer": 2888},
         {"input": 6561, "answer": 9999},
+        {"input": 686, "answer": 2777},
 
         {"input": 9973, "answer": 0},
     ],
