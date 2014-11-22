@@ -47,6 +47,8 @@ TESTS = {
         {"input": 1715, "answer": 5777},
 
         {"input": 3645, "answer": 5999},
+        {"input": 3275, "answer": 0},
+        {"input": 2310, "answer": 0},
 
         {"input": 288, "answer": 489},
 
