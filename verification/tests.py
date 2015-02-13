@@ -56,5 +56,6 @@ TESTS = {
 
         {"input": 9999, "answer": 0},
         {"input": 9000, "answer": 55589},
+        {"input": 12, "answer": 26}
     ]
 }
