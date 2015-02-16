@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128" height="128" viewBox="0, 0, 128, 128">
+  <g id="Background">
+    <rect x="0" y="0" width="128" height="128" fill="#000000" fill-opacity="0"/>
+  </g>
+  <g id="Background"/>
+  <g id="Image">
+    <path d="M18.093,6 L109.905,6 C116.559,6 122,11.439 122,18.093 L122,109.907 C122,116.561 116.559,122 109.905,122 L18.093,122 C11.439,122 6,116.561 6,109.907 L6,18.093 C6,11.439 11.439,6 18.093,6" fill="#737370"/>
+    <path d="M18.092,6 L109.903,6 C116.552,6 122,11.441 122,18.096 L122,109.902 C122,116.559 116.552,122 109.903,122 L18.092,122 C11.436,122 6,116.559 6,109.902 L6,18.096 C6,11.441 11.436,6 18.092,6" fill="#737370"/>
+    <text transform="matrix(0.866, -0.5, 0.5, 0.866, 47, 46.38)">
+      <tspan x="-12.797" y="13.5" font-family="Verdana-Bold" font-size="36" fill="#EBEDED">6</tspan>
+    </text>
+    <text transform="matrix(0.94, 0.342, -0.342, 0.94, 81, 46.38)">
+      <tspan x="-12.797" y="13.5" font-family="Verdana-Bold" font-size="36" fill="#EBEDED">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 64, 28.5)">
+      <tspan x="-12.797" y="13.5" font-family="Verdana-Bold" font-size="36" fill="#EBEDED">*</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 64, 91.5)">
+      <tspan x="-34.125" y="18.5" font-family="Verdana-Bold" font-size="48" fill="#82D1F5">42</tspan>
+    </text>
+  </g>
+  <defs/>
+</svg>
