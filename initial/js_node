@@ -1,0 +1,17 @@
+"use strict";
+
+function reconstruct(number) {
+    return 0;
+}
+
+var assert = require("assert");
+
+if (!global.is_checking) {
+    // These "asserts" using only for self-checking and not necessary for auto-testing
+    assert.equal(reconstruct(20), 45, "1st example");
+    assert.equal(reconstruct(21), 37, "2nd example");
+    assert.equal(reconstruct(17), 0, "3rd example");
+    assert.equal(reconstruct(33), 0, "4th example");
+    assert.equal(reconstruct(3125), 55555, "5th example");
+    assert.equal(reconstruct(9973), 0, "6th example");
+}
