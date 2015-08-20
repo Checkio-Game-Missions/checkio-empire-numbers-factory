@@ -14,4 +14,5 @@ if (!global.is_checking) {
     assert.equal(reconstruct(33), 0, "4th example");
     assert.equal(reconstruct(3125), 55555, "5th example");
     assert.equal(reconstruct(9973), 0, "6th example");
+    console.log("Earn cool rewards by using the 'Check' button!");
 }
